@@ -1,0 +1,45 @@
+.room{
+    flex: 0.35;   
+    display: flex;
+    flex-direction: column;
+    border:1px solid lightgray;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.room_wrapper{
+    padding: 10px;
+    display: flex;
+    border-bottom:1px solid lightgray;
+}
+.room_avatar{
+    padding:10px 15px;
+    display: flex;
+}
+.room_content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.room_lastmsg{
+    color: rgba(46, 46, 46,0.7);
+}
+.search{
+    width: 100%;
+    display: flex;
+}
+
+.input{
+    flex:1;
+}
+
+.room_body:hover{
+    background-color: rgba(211, 211, 211,0.5);
+}

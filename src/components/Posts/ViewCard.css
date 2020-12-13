@@ -1,0 +1,44 @@
+.header-item{
+    margin-right: 1rem;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-center;
+}
+
+.header-item-time{
+    font-size: 60%;
+    opacity: 80%;
+}
+
+.post-message{
+    padding:3vw 5vw;
+}
+
+.post-reactions{
+    display: flex;
+}
+.post-reaction-item{
+    margin: 2px 4px
+}
+.comment-wrapper{
+    margin:2vw 2vw;
+    display: flex;
+    justify-content: start;
+}
+
+.comment-field{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment-wrapper .avatar{
+    padding: 10px 2vw;    
+}
+
+.Postcard{
+    margin: 10px 0;
+}
