@@ -1,0 +1,43 @@
+.prof_body{
+    padding: 2vw 1vw;
+}
+
+.prof_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prof_wrapper > div{
+    padding:1.2vw 2px;
+}
+
+.prof_avatar .prof_avatar_img{
+    display: flex;
+    width: 15vw;
+    height: 15vw;
+}
+
+.prof_avatar{
+    padding: 2vw 0;
+}
+
+.prof_counts{
+    display: flex;
+    width:70%;
+    justify-content: space-around;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.Bold{
+    font-weight: bold !important;
+}
+
+.container{
+    margin-top: 1.3vw;
+}
